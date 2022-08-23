@@ -1,0 +1,39 @@
+{
+  "app": {
+    "api_host": "127.0.0.1",
+    "api_port": 3001
+  },
+  "apis": [
+    {
+      "api_name": "小米步数",
+      "api": "xm",
+      "method": "GET",
+      "url": "",
+      "path": "/v1/xm",
+      "query": {
+        "user": "13979320112",
+        "pass": "ms848789",
+        "step": ""
+      },
+      "open": {
+        "code": true,
+        "message": "接口开放"
+      }
+    },
+    {
+      "api_name": "课程表",
+      "api": "kcb",
+      "method": "GET",
+      "url": "",
+      "path": "/v1/kcb",
+      "query": {
+        "user": "19404010099",
+        "passwd": "ms848789"
+      },
+      "open": {
+        "code": false,
+        "message": "接口暂未完善"
+      }
+    }
+  ]
+}

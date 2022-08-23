@@ -1,0 +1,22 @@
+{
+  "apis": [
+    {
+      "api_name": "小米步数",
+      "api": "xm",
+      "method": "POST",
+      "url": "https://api-user.huami.com/registrations/+86",
+      "path": ["", "/tokens"],
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "User-Agent": "MiFit/4.6.0 (iPhone; iOS 14.0.1; Scale/2.00)"
+      },
+      "query": {},
+      "params": {
+        "client_id": "HuaMi",
+        "password": "",
+        "redirect_uri": "https://s3-us-west-2.amazonaws.com/hm-registration/successsignin.html",
+        "token": "access"
+      }
+    }
+  ]
+}
